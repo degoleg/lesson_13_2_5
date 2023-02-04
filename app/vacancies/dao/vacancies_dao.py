@@ -1,5 +1,6 @@
 import json
 
+
 class VacanciesDAO:
 
     def __init__(self, path):
@@ -19,3 +20,5 @@ class VacanciesDAO:
         for vacancy in vacancies:
             if vacancy["pk"] == pk:
                 return vacancy
+
+

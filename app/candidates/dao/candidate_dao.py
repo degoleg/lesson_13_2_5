@@ -1,3 +1,5 @@
+# candidates_dao.py
+
 import json
 
 class CandidateDAO:
@@ -23,4 +25,3 @@ class CandidateDAO:
         for candidate in candidates:
             if candidate["pk"] == pk:
                 return candidate
-

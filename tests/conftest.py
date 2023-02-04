@@ -7,4 +7,4 @@ import run
 @pytest.fixture()
 def test_client():
     app = run.app
-    return
+    return app.test_client()
